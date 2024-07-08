@@ -19,3 +19,10 @@ We need to tell "use client" to convert it into client component.
 ## Authentication
 Using Clerk.com for Authentication with google account
 clerk used middleware to check if the user is logged in or not
+
+
+## Setting up dark theme
+Using next-theme in .root-layout from SHADCN/UI
+import dark in .root-layout
+Using ThemeProvider in .root-layout to wrap children inside it.
+Setting ThemeProvider to dark mode to make SignUP and SignIN dark ThemeProvider
